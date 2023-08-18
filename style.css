@@ -4,9 +4,14 @@ body{
 }
 
 .calculator-body{
-    margin: 100px;
-    margin-left: 350px;
+    padding: 100px;
 
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 table{
@@ -15,8 +20,6 @@ table{
     border-radius: 5px;
     background-color: white;
     padding: 7px;
-    height: 300px;
-    width: 90px;
 }
 
 input[type="button"]{
@@ -42,8 +45,12 @@ input[type="text"]{
     border: 1px solid ;
 }
 
+.container{
+    height: 90vh;
+}
 footer{
     text-align: center;
     font-size: 10px;
     font-style: italic;
+
 }
